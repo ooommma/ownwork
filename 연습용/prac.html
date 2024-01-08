@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIND_A_MOVIE</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <header class="header-container" id="hd">
+        <h1 class="header-container header-title">FIND_A_MOVIE</h1>
+        <nav class="header-container">
+            <ul class="login-sign">
+                <li class="header-item"><a href="mainpage.html">home</a></li>
+                <li class="header-item"><a href=""></a>랭킹</li>
+                <li class="header-item"><a href=""></a>시리즈</li>
+                <li class="header-item"><a href=""></a>영화</li>
+                <li class="header-item"><a href=""></a>찜리스트</li>
+            </ul>
+        </nav>
+        <nav class="header-container">
+            <ul>
+                <li class="header-login"><a href="login.html">로그인</a></li>
+                <li class="header-login"><a href="join.html">회원 가입</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="main-page">
+            <section>
+                <div class="input-img">
+                    <input class="input-search" type="text" placeholder="이 곳에 영화를 검색 해보세요 !">
+                    <button class="input-btn">검색</button>
+                    <div id="DataInfo"></div>
+                </div>         
+            </section>
+
+
+            <!-- 1번째 카드 -->
+            <section class="card-all-center">
+                <h2>
+                    <span>Popular 20.</span>
+                </h2>
+                <div class="card-all" id="card-all-container" onclick="clickEvent()">
+                    <div class="card-container">
+                        <div class="card-item">
+                            <div><img src="img/her.jpeg" class="img-size"></div>
+                        </div>
+                        <div class="card-item" id="card_all_info">
+                            <div>영화 제목</div>
+                            <div>평점</div>
+                            <div>영화 설명</div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card-item">
+                            <div><img src="img/her.jpeg" class="img-size"></div>
+                        </div>
+                        <div class="card-item">
+                            <div>영화 제목</div>
+                            <div>영화 설명</div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card-item">
+                            <div><img src="img/her.jpeg" class="img-size"></div>
+                        </div>
+                        <div class="card-item">
+                            <div>영화 제목</div>                
+                            <div>영화 설명</div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card-item">
+                            <div><img src="img/her.jpeg" class="img-size"></div>
+                        </div>
+                        <div class="card-item">
+                            <div>영화 제목</div>
+                            <div>영화 설명</div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card-item">
+                            <div><img src="img/her.jpeg" class="img-size"></div>
+                        </div>
+                        <div class="card-item">
+                            <div>영화 제목</div>
+                            <div>영화 설명</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!-- 2번째 카드 -->
+            <section class="card-all-center">
+                <h2>
+                    <span>Now Playing.</span>
+                </h2>  
+                <div class="card-all1" id="card-all-container1" onclick="clickEvent1()">
+                    <div class="card-container">
+                        <div class="card-item">
+                            <div><img src="img/her.jpeg" class="img-size"></div>
+                        </div>
+                        <div class="card-item">
+                            <div>영화 제목</div>
+                            <div>영화 설명</div>
+                        </div>
+                    </div>
+                    <div class="card-container1">
+                        <div class="card-item">
+                            <div><img src="img/her.jpeg" class="img-size"></div>
+                        </div>
+                        <div class="card-item">
+                            <div>영화 제목</div>
+                            <div>영화 설명</div>
+                        </div>
+                    </div>
+                    <div class="card-container1">
+                        <div class="card-item">
+                            <div><img src="img/her.jpeg" class="img-size"></div>
+                        </div>
+                        <div class="card-item">
+                            <div>영화 제목</div>
+                            <div>영화 설명</div>
+                        </div>
+                    </div>
+                    <div class="card-container1">
+                        <div class="card-item">
+                            <div><img src="img/her.jpeg" class="img-size"></div>
+                        </div>
+                        <div class="card-item">
+                            <div>영화 제목</div>
+                            <div>영화 설명</div>
+                        </div>
+                    </div>
+                    <div class="card-container1">
+                        <div class="card-item">
+                            <div><img src="img/her.jpeg" class="img-size"></div>
+                        </div>
+                        <div class="card-item">
+                            <div>영화 제목</div>
+                            <div>영화 설명</div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+        </article>
+    </main>
+    <footer id="foot">
+        <nav class="foot-container">
+            <li class="foot-item"><a href="mainpage.html">홈으로</a></li>
+            <li class="foot-item">고객 센터</li>
+            <li class="foot-item">문의 하기</li>
+        </nav>
+        <p>Copyright © 2023 Node.js_4기 김주희 All rights reserved.</p>
+        <p>
+        <address>Contact webmaster for more information. paosige@gmail.com</address>
+        </p>
+    </footer>
+</body>
+</html>

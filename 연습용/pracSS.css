@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(251, 234, 234);
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.input-img{
+    background-image: url(img/herwi.jpg);    
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 250px;
+    margin: 30px;
+}
+
+.input-search{
+    display: inline-block;
+    width: 40%;
+    height: 40px;
+    padding: 0 10px;
+    margin: 0 5px 0 5px;
+    vertical-align: middle;
+    border:none;
+    border-bottom: solid 2.5px black;
+    background: transparent;
+    color: #1a1a1a;
+}
+
+.input-btn{
+    background-color: transparent;
+    color: black;
+}
+
+
+.header-container{
+    display: inline-block;
+}
+
+.header-item{
+    display: inline-block;
+   
+}
+
+.header-login{
+    display: inline-block;
+    
+}
+
+.card-all-center{
+    justify-content: center;
+}
+
+.card-container{
+    border-radius: 1px;
+    background-color: deepskyblue;
+    display: inline-block;
+    padding: 5px;
+    margin: 2.5px
+}
+
+.card-container1{
+    border-radius: 1px;
+    background-color: deepskyblue;
+    display: inline-block;
+    padding: 5px;
+    margin: 2.5px
+}
+
+.card-all{
+    display: flex;
+    text-align: center;
+    /* background-color: cadetblue; */
+    margin : 25px ;
+    justify-content: center;
+
+}
+
+.card-all1{
+    display: flex;
+    text-align: center;
+    /* background-color: cadetblue; */
+    margin : 25px ;
+    justify-content: center;
+
+}
+
+.img-size {
+    justify-content: center;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+#foot{
+    /* background-color: yellowgreen; */
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.foot-container{
+    display: flex;
+    padding: 1px;
+    margin-top: 7%;
+}
+
+.foot-item{
+    display: inline-block;
+}
